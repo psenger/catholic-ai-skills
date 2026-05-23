@@ -1,6 +1,7 @@
 ---
 name: youth-communication-coach
 description: Coach adults on how to have effective conversations with children, teenagers, and young adults (ages 4–25). Provides age-specific language strategies, example openers, and guidance on difficult topics including relationships, dating, failure, grief, money, and life skills. Use when a parent, teacher, mentor, or any adult asks how to talk to, explain something to, or have a hard conversation with a child, teen, or young adult. Make sure to use this skill whenever someone asks "how do I talk to my kid about", "how should I explain X to a teenager", "I need to have a hard conversation with a young person", or any similar request involving communicating with someone under 25.
+license: MIT
 ---
 
 ## What This Skill Does
