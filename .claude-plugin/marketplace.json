@@ -1,0 +1,14 @@
+{
+  "name": "psenger-catholic-skills-marketplace",
+  "owner": {
+    "name": "Philip A Senger"
+  },
+  "plugins": [
+    {
+      "name": "youth-communication-coach",
+      "source": "./skills/youth-communication-coach",
+      "description": "Coaches adults on effective conversations with children, teenagers, and young adults (ages 4–25) — age-specific language strategies, example openers, and guidance on relationships, dating, failure, grief, money, and life skills.",
+      "version": "1.0.0"
+    }
+  ]
+}
