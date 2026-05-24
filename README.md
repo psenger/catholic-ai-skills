@@ -2,7 +2,7 @@
 
 # catholic-ai-skills
 
-**A curated collection of AI agent skills rooted in Catholic tradition, classical virtue ethics, and formation-centered communication.**
+**A curated collection of AI agent skills rooted in Catholic tradition, Scripture, and formation-centered communication — for those who want their tools to reflect the faith.**
 
 [![License](https://img.shields.io/github/license/psenger/catholic-ai-skills?style=flat-square)](https://github.com/psenger/catholic-ai-skills/blob/main/LICENSE) [![Issues](https://img.shields.io/github/issues/psenger/catholic-ai-skills?style=flat-square)](https://github.com/psenger/catholic-ai-skills/issues) [![Stars](https://img.shields.io/github/stars/psenger/catholic-ai-skills?style=flat-square)](https://github.com/psenger/catholic-ai-skills/stargazers)
 
@@ -18,51 +18,52 @@ Compatible with Claude Code, Codex, Cursor, and any tool that supports the [Agen
 
 | Skill | Trigger | Description |
 |---|---|---|
-| [youth-communication-coach](skills/youth-communication-coach/) | `/youth-communication-coach` | Coaches adults on effective conversations with children, teenagers, and young adults (ages 4–25) |
+| [catholic-advisor](skills/catholic-advisor/) | `/catholic-advisor` | Answers theological questions as a Catholic theologian with verified Scripture, Catechism, and papal source links |
+| [catholic-advisor-setup](skills/catholic-advisor-setup/) | `/catholic-advisor-setup` | Installs the Catholic theologian persona permanently into a project's `CLAUDE.md` |
+| [youth-communication-coach](skills/youth-communication-coach/) | `/youth-communication-coach` | Coaches Catholic adults on effective, faith-grounded conversations with children, teenagers, and young adults (ages 4–25) |
+
+### catholic-advisor
+
+Ask any question about the Catholic faith — doctrine, Scripture, the sacraments, moral theology, apologetics — and receive a clear, sourced answer grounded in official Church teaching. Every response ends with verified links: Scripture on Bible Gateway NRSVCE (all 72 books), Catechism paragraphs on Catholic Crossreference, and papal documents on vatican.va. If there is no source, it says so.
+
+→ [Full documentation](skills/catholic-advisor/README.md)
+
+---
+
+### catholic-advisor-setup
+
+Run once in any project to install the Catholic theologian persona permanently into `CLAUDE.md`. After that, every Claude Code conversation in that project answers from within the Catholic tradition — sourced, verified, and grounded — without needing a slash command each time. Includes the complete Scripture and Catechism URL construction rules so the installed persona is fully self-contained.
+
+→ [Full documentation](skills/catholic-advisor-setup/README.md)
+
+---
 
 ### youth-communication-coach
 
-Practical, age-specific guidance for adults having hard conversations with children, teenagers, and young adults — no generic platitudes, just concrete strategies and real sentence openers.
-
-The skill asks for the child's age and situation if not already clear, then delivers targeted strategy, 2–3 natural conversation openers, and a flag if professional support should be part of the picture.
+Practical, explicitly Catholic guidance for parents, teachers, mentors, and youth ministers having hard conversations with young people. Grounded in the Beatitudes (CCC 1716-1724), the theological virtues, and the Church's teaching on death, chastity, mercy, and character formation. Not secular psychology with Catholic notes — the faith is the framework.
 
 **Topics covered:**
 
 | Topic | Ages |
 |---|---|
+| Death and resurrection | 4–25 |
+| Relationships, dating, and chastity | 4–25 |
+| Failure, conscience, and mercy | 4–25 |
+| Questioning or leaving the faith | 12–25 |
 | Difficult emotions (grief, fear, anxiety) | 4–25 |
-| Death and loss | 4–25 |
-| Relationships and dating | 4–25 |
-| Failure and consequences | 4–25 |
 | Life skills (money, work, independence) | 4–25 |
-| Stoic habits of mind (dichotomy of control, courage, temperance) | 4–25 |
-| Classical virtue formation (prudence, fortitude, justice, temperance) | 4–25 |
+| Character and virtue formation | 4–25 |
 
-**Trigger phrases:**
-
-```
-"How do I talk to my kid about..."
-"How should I explain X to a teenager?"
-"I need to have a hard conversation with a young person"
-"What do I say when my 14-year-old...?"
-"My son won't listen — how do I approach this?"
-```
+→ [Full documentation](skills/youth-communication-coach/README.md)
 
 ---
 
 ## Installation
 
-### Via npx (Claude Code, Codex, Cursor)
+### Via npx (recommended)
 
 ```bash
-# Install all skills
 npx skills add psenger/catholic-ai-skills
-
-# Install a specific skill
-npx skills add psenger/catholic-ai-skills --skill youth-communication-coach
-
-# Install locally for customisation
-npx skills add psenger/catholic-ai-skills --skill youth-communication-coach --local
 ```
 
 ### Via Claude Code Marketplace
@@ -139,7 +140,7 @@ Copyright (c) 2026 Philip A Senger
 
 <div align="center">
 
-**Skills that help people show up well — for the young, the searching, and the formation-minded.**
+**Skills rooted in the faith — for the curious, the searching, and those doing the work of formation.**
 
 [Report a bug](https://github.com/psenger/catholic-ai-skills/issues) • [Request a skill](https://github.com/psenger/catholic-ai-skills/issues) • [@psenger](https://github.com/psenger)
 
