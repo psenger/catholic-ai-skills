@@ -6,7 +6,7 @@ compatibility: Designed for Claude Code (and similar Agent Skills clients). Requ
 allowed-tools: Read Edit Write Bash
 metadata:
   author: psenger
-  version: "2.0.0"
+  version: "1.0.0"
 ---
 
 # Catholic Advisor — Repo-Level Setup

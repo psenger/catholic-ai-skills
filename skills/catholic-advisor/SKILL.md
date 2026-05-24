@@ -5,7 +5,7 @@ license: MIT
 compatibility: Designed for Claude Code (and similar Agent Skills clients). Requires internet access to verify source URLs at runtime.
 metadata:
   author: psenger
-  version: "2.0.0"
+  version: "1.0.0"
 ---
 
 # Catholic Advisor

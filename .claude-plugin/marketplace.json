@@ -14,13 +14,13 @@
       "name": "catholic-advisor",
       "source": "./skills/catholic-advisor",
       "description": "Answers theological questions as a Catholic theologian, apologist, and spiritual advisor — drawing on Catholic dogma, Scripture (NRSVCE), papal encyclicals, the Catechism, and the Church Fathers. Ships with a bundled reference library of 174 verified entries (saints, popes, Church Fathers, apostles, ecumenical councils, the Beatitudes, the Ten Commandments) under references/ so lookups stay token-light. Conforms to Agent Skills v2.0.",
-      "version": "2.0.0"
+      "version": "1.0.0"
     },
     {
       "name": "catholic-advisor-setup",
       "source": "./skills/catholic-advisor-setup",
       "description": "Installs the Catholic theologian persona AND the full bundled reference library (174 verified entries across saints, popes, Church Fathers, apostles, ecumenical councils, the Beatitudes, and the Ten Commandments — 182 markdown files in total) into the current directory. Writes a marker-bounded block to CLAUDE.md so every Claude Code conversation in that directory behaves as the catholic-advisor skill. Conforms to Agent Skills v2.0.",
-      "version": "2.0.0"
+      "version": "1.0.0"
     }
   ]
 }
