@@ -429,15 +429,27 @@ Results land in `.workspace/iteration-N/`. Review the graded outputs — each `e
 
 ## Reporting Issues
 
-Open a [GitHub issue](https://github.com/psenger/catholic-ai-skills/issues) and include:
+Three paths depending on what you are reporting. The issue chooser at [github.com/psenger/catholic-ai-skills/issues/new/choose](https://github.com/psenger/catholic-ai-skills/issues/new/choose) presents all three.
 
-- The skill name and version or commit SHA
-- The exact prompt you used
-- What you expected to happen
-- What actually happened
-- The Claude model and tool (e.g. Claude Code CLI, claude.ai)
+### Bug — something is wrong
 
-Or use `/start` to file it directly from Claude Code.
+Use **[Bug Report](.github/ISSUE_TEMPLATE/bug_report.md)**. The template asks for: which skill is affected, steps to reproduce, expected vs. actual behavior, environment (skill version, agent client, OS, install method), and — for doctrinal, scriptural, or hagiographic errors — the citation you believe is correct.
+
+You can also run `/start` from Claude Code. It will classify your description as a bug, fill out `bug_report.md`, and open the issue.
+
+### Feature — something should be added or changed
+
+Use **[Feature Request](.github/ISSUE_TEMPLATE/feature_request.md)**. The template asks for: the problem you are trying to solve, your proposed solution, which skill (or whether it is a new skill), alternatives considered, and Catholic / theological grounding where applicable.
+
+`/start` works for features too — it will classify your description as `feature` and use the right template.
+
+### Security — a vulnerability or sensitive issue
+
+**Do NOT open a public GitHub issue.** Use GitHub's private vulnerability reporting:
+
+**[Report a vulnerability privately](https://github.com/psenger/catholic-ai-skills/security/advisories/new)**
+
+The full policy — supported versions, response timeline, coordinated disclosure — is in [SECURITY.md](SECURITY.md). The issue chooser itself routes security reports to the private flow so a contributor cannot accidentally file a vulnerability as a public issue (`blank_issues_enabled: false` in `.github/ISSUE_TEMPLATE/config.yml`).
 
 ---
 

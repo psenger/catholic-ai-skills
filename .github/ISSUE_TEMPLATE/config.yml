@@ -1,0 +1,15 @@
+# Controls the issue chooser at github.com/psenger/catholic-ai-skills/issues/new/choose
+# - Disables blank issues so reporters use one of the templates.
+# - Adds external contact links that appear alongside the templates, routing
+#   security reports to private GitHub Security Advisories instead of a public issue.
+
+blank_issues_enabled: false
+
+contact_links:
+  - name: Report a security vulnerability (private)
+    url: https://github.com/psenger/catholic-ai-skills/security/advisories/new
+    about: Use GitHub Security Advisories to report vulnerabilities privately. DO NOT open a public issue for security problems.
+
+  - name: Read the security policy
+    url: https://github.com/psenger/catholic-ai-skills/blob/main/SECURITY.md
+    about: Supported versions, response timeline, and coordinated disclosure process.
