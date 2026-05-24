@@ -4,7 +4,13 @@
 
 **A curated collection of AI agent skills rooted in Catholic tradition, Scripture, and formation-centered communication — for those who want their tools to reflect the faith.**
 
-[![License](https://img.shields.io/github/license/psenger/catholic-ai-skills?style=flat-square)](https://github.com/psenger/catholic-ai-skills/blob/main/LICENSE) [![Issues](https://img.shields.io/github/issues/psenger/catholic-ai-skills?style=flat-square)](https://github.com/psenger/catholic-ai-skills/issues) [![Stars](https://img.shields.io/github/stars/psenger/catholic-ai-skills?style=flat-square)](https://github.com/psenger/catholic-ai-skills/stargazers)
+[![GitHub Release](https://img.shields.io/github/v/release/psenger/catholic-ai-skills)](https://github.com/psenger/catholic-ai-skills/releases)
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-v2.0%20compliant-blue.svg)](https://agentskills.io/specification)
+[![Catholic Bible](https://img.shields.io/badge/Catholic%20Bible-73%20books-green.svg)](https://www.biblegateway.com/versions/New-Revised-Standard-Version-Catholic-Edition-NRSVCE-Bible/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Skills](https://img.shields.io/badge/Skills-3-purple.svg)](#skills)
+[![Reference Library](https://img.shields.io/badge/Reference%20Library-174%20entries-orange.svg)](skills/catholic-advisor/references/)
+[![Obsidian](https://img.shields.io/badge/Obsidian-compatible-7c3aed)](https://obsidian.md)
 
 [Skills](#skills) • [Installation](#installation) • [Usage](#usage) • [Contributing](#contributing)
 
@@ -12,7 +18,7 @@
 
 ---
 
-Compatible with Claude Code, Codex, Cursor, and any tool that supports the [Agent Skills Open Standard](https://agentskills.io/specification). Each skill is a self-contained folder with structured instructions and reference material that an agent loads on demand.
+**Conforms to [Agent Skills v2.0](https://agentskills.io/specification).** Compatible with Claude Code, Codex, Cursor, and any tool that supports the standard. Each skill is a self-contained folder with structured instructions and reference material that an agent loads on demand. Two of the three skills ship with a bundled, pre-verified reference library (174 entries across saints, popes, Church Fathers, ecumenical councils, the Beatitudes, and the Ten Commandments) so theological lookups stay token-light and don't depend on live web access.
 
 ## Skills
 
@@ -24,7 +30,7 @@ Compatible with Claude Code, Codex, Cursor, and any tool that supports the [Agen
 
 ### catholic-advisor
 
-Ask any question about the Catholic faith — doctrine, Scripture, the sacraments, moral theology, apologetics — and receive a clear, sourced answer grounded in official Church teaching. Every response ends with verified links: Scripture on Bible Gateway NRSVCE (all 72 books), Catechism paragraphs on Catholic Crossreference, and papal documents on vatican.va. If there is no source, it says so.
+Ask any question about the Catholic faith — doctrine, Scripture, the sacraments, moral theology, apologetics — and receive a clear, sourced answer grounded in official Church teaching. Every response ends with verified links: Scripture on Bible Gateway NRSVCE (all 73 books of the Catholic canon, including the deuterocanonicals), Catechism paragraphs on Catholic Crossreference, and papal documents on vatican.va. If there is no source, it says so.
 
 → [Full documentation](skills/catholic-advisor/README.md)
 
@@ -159,24 +165,9 @@ Or describe the situation naturally:
 
 ## Contributing
 
-Please read the [Code of Conduct](CODE_OF_CONDUCT.md) before contributing. Contributors are not required to be Catholic; they are required to treat others as people who matter.
+See **[CONTRIBUTING.md](CONTRIBUTING.md)** for the full guide — scenarios for adding a new skill, conventions, evals, release workflow, and the project-local skills (`/start`, `/release`) that automate the process.
 
-### Adding a new skill
-
-1. Create a folder under `skills/` with a lowercase-hyphenated name
-2. Add a `SKILL.md` with YAML frontmatter and process instructions
-3. Add reference files under `references/` if needed
-4. Add examples under `examples/` for better activation rates
-5. Add an entry to `.claude-plugin/marketplace.json`
-6. Update the skills table in this README
-7. Open a pull request
-
-```
-skills/<skill-name>/
-├── SKILL.md              Required — metadata + instructions
-├── references/           Optional — detailed reference material
-└── examples/             Optional — example input/output pairs
-```
+Read the **[Code of Conduct](CODE_OF_CONDUCT.md)** before contributing. Contributors are not required to be Catholic; they are required to treat others as people who matter.
 
 ---
 
