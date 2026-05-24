@@ -3,9 +3,42 @@ name: youth-communication-coach
 description: Coach Catholic adults on how to have effective conversations with children, teenagers, and young adults (ages 4–25) grounded in Catholic moral teaching, the Beatitudes, and the theological and cardinal virtues. Provides age-specific language strategies, Catholic example openers, and guidance on difficult topics including death and resurrection, relationships and chastity, failure, grief, money, and life skills. Use when a parent, teacher, mentor, or any adult asks how to talk to, explain something to, or have a hard conversation with a child, teen, or young adult. Make sure to use this skill whenever someone asks "how do I talk to my kid about", "how should I explain X to a teenager", "I need to have a hard conversation with a young person", or any similar request involving communicating with someone under 25.
 license: MIT
 compatibility: Designed for Claude Code (and similar Agent Skills clients).
+argument-hint: "[age group or age (child 4-11 / teen 12-17 / young adult 18-25)] [topic or situation to discuss]"
+references:
+  - references/INDEX.md
+  - references/saint-agnes.md
+  - references/saint-augustine-of-hippo.md
+  - references/saint-carlo-acutis.md
+  - references/saint-cecilia.md
+  - references/saint-chiara-luce-badano.md
+  - references/saint-dominic-savio.md
+  - references/saint-elizabeth-of-hungary.md
+  - references/saint-francis-of-assisi.md
+  - references/saint-franz-jagerstatter.md
+  - references/saint-joan-of-arc.md
+  - references/saint-john-of-the-cross.md
+  - references/saint-john-vianney.md
+  - references/saint-josephine-bakhita.md
+  - references/saint-kateri-tekakwitha.md
+  - references/saint-louis-and-zelie-martin.md
+  - references/saint-maria-goretti.md
+  - references/saint-martin-de-porres.md
+  - references/saint-matt-talbot.md
+  - references/saint-maximilian-kolbe.md
+  - references/saint-monica.md
+  - references/saint-oscar-romero.md
+  - references/saint-padre-pio.md
+  - references/saint-paul-the-apostle.md
+  - references/saint-perpetua-and-felicity.md
+  - references/saint-peter-the-apostle.md
+  - references/saint-pier-giorgio-frassati.md
+  - references/saint-tarcisius.md
+  - references/saint-therese-of-lisieux.md
+  - references/saint-thomas-more.md
+  - references/saint-thomas-the-apostle.md
 metadata:
   author: psenger
-  version: "1.0.0"
+  version: "1.0.1"
 ---
 
 # Youth Communication Coach
