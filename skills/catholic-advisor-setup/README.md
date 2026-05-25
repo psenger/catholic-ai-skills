@@ -52,6 +52,8 @@ After setup, every Claude Code conversation in that project will:
 
 ## What gets installed
 
+> **Security note:** The installed `references/` directory becomes part of your AI instruction environment. Protect it from unauthorized modification. If you share the vault with other collaborators, treat modifications to `references/` files as you would modifications to `CLAUDE.md` — they affect how Claude behaves in every conversation. After installation, a `.integrity` file is written to `references/`; run `shasum -a 256 -c .integrity` from inside that directory at any time to verify no files have been altered.
+
 The skill writes this block to your `CLAUDE.md`:
 
 ```markdown
